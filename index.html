@@ -18,10 +18,16 @@
     color: #f09228;
     text-decoration:none;
     }
+    body {
+    margin: 0;
+    background: #f7f8fb;
+    color: #202124;
+    }
     body,td,th,tr,p,a {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 300;
+    line-height: 1.55;
     }
     strong {
     font-family: 'Roboto', sans-serif;
@@ -70,6 +76,58 @@
     }
     span.highlight {
         background-color: #ffffd0;
+    }
+    body > table {
+      background: #ffffff;
+      max-width: 920px;
+      width: calc(100% - 48px) !important;
+      margin-top: 28px;
+      margin-bottom: 28px;
+      border-radius: 14px;
+      box-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+      overflow: hidden;
+    }
+    body > table > tbody > tr > td {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    name {
+      letter-spacing: 0;
+    }
+    p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    td[width="33%"] img[alt="headshot"] {
+      width: 230px;
+      border-radius: 10px;
+      box-shadow: 0 12px 28px rgba(15, 23, 42, 0.18);
+    }
+    heading {
+      display: block;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 6px;
+      margin-bottom: 4px;
+      color: #111827;
+    }
+    table[cellpadding="20"] td {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+    table[cellpadding="20"] td[width="25%"] img {
+      max-width: 160px;
+      object-fit: contain;
+    }
+    papertitle {
+      color: #111827;
+      font-weight: 500;
+    }
+    ul {
+      padding-left: 22px;
+      margin-top: 10px;
+    }
+    li {
+      margin-bottom: 6px;
     }
   </style>
   <link rel="icon" type="image/png" href="media/preview.jpg">
