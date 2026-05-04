@@ -230,6 +230,48 @@
 
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
+        <tr onmouseout="trace_stop()" onmouseover="trace_start()">  
+          <td width="25%">
+            <div class="one">
+            <div class="two" id = 'trace_shape'>
+            <img src='media/trace_teaser.png' width="160" height="90"></div>
+            <img src='media/trace_teaser.png' width="160" height="90"></div>
+            </div>
+            <script type="text/javascript">
+            function trace_start() { 
+            document.getElementById('trace_shape').style.opacity = "1";
+            }
+            function trace_stop() { 
+            document.getElementById('trace_shape').style.opacity = "0"; 
+            }
+            trace_stop()
+            </script>
+            </script>
+          </td>
+          <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2604.01207">
+                <papertitle>TRACE: High-Fidelity 3D Scene Editing via Tangible Reconstruction and Geometry-Aligned Contextual Video Masking</papertitle></a>
+          <br>
+              <a href="https://github.com/little612pea/Trace">Jiyuan Hu</a>,
+              <strong>Zechuan Zhang</strong>, 
+              <a href="https://z-x-yang.github.io/">Zongxin Yang</a>,
+              <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ">Yi Yang</a>
+          <br>
+              <em>arXiv</em>, 2026
+       
+          <br>
+            <a href="https://arxiv.org/abs/2604.01207">paper</a> |
+            <a href="https://little612pea.github.io/Trace-site/">project page</a> |
+            <a href="https://github.com/little612pea/Trace">code</a>
+           
+            <p></p>
+            We introduce TRACE, a mesh-guided 3DGS editing framework for high-fidelity scene transformation with tangible reconstruction and geometry-aligned contextual video masking.
+            <p></p>
+          </td>
+        </tr>
+      
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
         <tr onmouseout="con_stop()" onmouseover="con_start()">  
           <td width="25%">
             <div class="one">
