@@ -129,6 +129,21 @@
     li {
       margin-bottom: 6px;
     }
+    table.selected-publication {
+      background: #fff8df;
+      border-left: 4px solid #eab308;
+      border-radius: 10px;
+      box-shadow: inset 0 0 0 1px rgba(234, 179, 8, 0.18);
+      margin-top: 4px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+    table.selected-publication td {
+      background: #fffaf0;
+    }
+    table.selected-publication papertitle {
+      color: #7a4b00;
+    }
   </style>
   <link rel="icon" type="image/png" href="media/preview.jpg">
   <title>Zechuan Zhang - Homepage</title>
@@ -288,7 +303,7 @@
 
 
 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
+      <table class="selected-publication" width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
         <tr onmouseout="selected_reclip_stop()" onmouseover="selected_reclip_start()">  
           <td width="25%">
             <div class="one" style="height:220px;">
@@ -333,7 +348,7 @@
         </tr>
       
 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
+      <table class="selected-publication" width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
         <tr onmouseout="selected_icedit_stop()" onmouseover="selected_icedit_start()">  
           <td width="25%">
             <div class="one">
@@ -379,7 +394,7 @@
         </tr>
 
 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
+      <table class="selected-publication" width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
     
         <tr onmouseout="selected_sifu_stop()" onmouseover="selected_sifu_start()">  
           <td width="25%">
